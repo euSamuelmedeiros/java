@@ -14,6 +14,7 @@ public class primitivos {
         boolean falso = false;
         char caracteres = 'M';
         float pagamentoFloat = 3500;
+        String nome = "Goku (aspas duplas)";
 
         System.out.println("a idade é " + idade + " anos ");
         System.out.println("Número grande: " + numerogrande);
@@ -24,6 +25,7 @@ public class primitivos {
         System.out.println("Valor boolean falso: " + falso);
         System.out.println("Caractere: " + caracteres);
         System.out.println("Pagamento (float): " + pagamentoFloat);
+        System.out.println("ola, meu nome é " + nome);
                 
 
     }
