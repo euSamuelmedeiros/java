@@ -29,12 +29,7 @@ public class contas {
          var sentence = String.format("A soma dos valores %.0f e %.0f é igual a %.0f", number1, number2, res);
          System.out.println(sentence);
 
-         input.close();
-           
-
-
-
-           
+         input.close();                     
 
     }
 }
