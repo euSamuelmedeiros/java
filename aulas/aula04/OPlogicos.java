@@ -29,6 +29,13 @@ public class OPlogicos {
         bonus /= 2;
         System.out.println(bonus);
 
+
+        int contador = 1;
+        contador += 1;
+        contador++;
+        System.out.println(contador);
+       
+
     }
     
     
