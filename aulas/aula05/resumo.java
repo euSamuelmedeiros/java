@@ -1,6 +1,6 @@
 package aula05;
 
-public class condicionais {
+public class resumo {
     public static void main(String[] args) {
         int age = 17;
         if (age >= 18) {
@@ -10,3 +10,5 @@ public class condicionais {
         }
     } 
 }   
+
+

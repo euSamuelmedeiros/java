@@ -12,8 +12,6 @@ public class exerciciosOPlogicos {
         String phrase = String.format("pude fazer emprestimo? %s ", isemprestimoLiberado);
         System.out.println(phrase);*/
 
-        
-      
      Scanner input = new Scanner(System.in);
 
      System.out.print("Qual é a sua idade? ");
@@ -26,9 +24,6 @@ public class exerciciosOPlogicos {
      boolean isemprestimoLiberado = age >= 23 && wage >= 3000 && nameclean;
      String phrase = String.format("Emprestimo liberado? %b", isemprestimoLiberado);
      System.out.println(phrase);
-
-
-
 
     input.close();
     }
