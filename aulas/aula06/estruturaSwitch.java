@@ -30,5 +30,17 @@ public class estruturaSwitch {
                 System.out.println("Opçao invalida."); // o defaut pode estar em qualquer lugar do codigo.
 
         }
+
+        char sexo = 'M';
+        switch (sexo) {
+            case 'M':
+                System.out.println("Homem");
+                break;
+            case 'F':
+                System.out.println("Mulher");
+            default:
+                System.out.println("opçao invalida");
+                break;
+        }
     }
 }
