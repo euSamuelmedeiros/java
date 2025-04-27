@@ -19,5 +19,17 @@ public class laçosDerepetição {
             System.out.println("for" + c);
 
         }
+
+        // repetição break
+
+        int valormax = 50;
+        for (int i = 0; i <= valormax; i++) {
+            if (i > 25) {
+                break;
+            }
+            System.out.println(i);
+
+        }
+
     }
 }
