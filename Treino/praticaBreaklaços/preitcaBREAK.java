@@ -32,9 +32,9 @@ public class preitcaBREAK {
         for (int m = 0; m < ma; m++) {
             System.out.println("Qual é a sua idade? ");
             int num1 = input.nextInt();
-            // System.out.println(num1);
-        }
+            System.out.println(num1);
 
-        input.close();
+            input.close();
+        }
     }
 }
