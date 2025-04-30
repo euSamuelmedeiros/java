@@ -5,20 +5,6 @@ import java.util.Scanner;
 public class pratica {
     public static void main(String[] args) {
         /*
-         * Scanner input = new Scanner(System.in);
-         * System.out.print("Qual é a sua idade? ");
-         * int age = input.nextInt();
-         * if (age < 15) {
-         * System.out.println("sua categoria é a infantil");
-         * } else if (age >= 15 && age < 18) {
-         * System.out.println("sua categoria é a juvenil");
-         * } else {
-         * System.out.println("sua categoria é a dos adultos");
-         * }
-         * 
-         * input.close();
-         */
-
         Scanner input = new Scanner(System.in);
         System.out.println("Qual a sua primeira nota? ");
         float notice1 = input.nextFloat();
@@ -40,6 +26,22 @@ public class pratica {
         input.close();
 
         input.close();
+
+         /*
+         * Scanner input = new Scanner(System.in);
+         * System.out.print("Qual é a sua idade? ");
+         * int age = input.nextInt();
+         * if (age < 15) {
+         * System.out.println("sua categoria é a infantil");
+         * } else if (age >= 15 && age < 18) {
+         * System.out.println("sua categoria é a juvenil");
+         * } else {
+         * System.out.println("sua categoria é a dos adultos");
+         * }
+         * 
+         * input.close();
+         */
+
     }
 
 }
