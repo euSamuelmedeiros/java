@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class pratica {
     public static void main(String[] args) {
-        /*
         Scanner input = new Scanner(System.in);
         System.out.println("Qual a sua primeira nota? ");
         float notice1 = input.nextFloat();
