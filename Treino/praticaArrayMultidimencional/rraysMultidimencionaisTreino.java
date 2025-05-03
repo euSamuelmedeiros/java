@@ -37,8 +37,8 @@ public class rraysMultidimencionaisTreino {
         }
 
         System.out.println("-------------------------------");
-        for(int[] arrBase: day){
-            for(int num : arrBase){
+        for (int[] arrBase : day) {
+            for (int num : arrBase) {
                 System.out.println(num);
             }
         }
