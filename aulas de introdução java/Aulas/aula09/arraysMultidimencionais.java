@@ -17,10 +17,15 @@ public class arraysMultidimencionais {
         days[2][1] = 28;
         days[2][2] = 31;
 
-        for (int i = 0; i < days.length; i++) {
+       /* for (int i = 0; i < days.length; i++) {
             for (int j = 0; j < days[0].length; j++) {
                 System.out.println(days[i][j]);
 
+            }
+        }*/ 
+        for(int[] arrBase: days){
+            for(int weekdays: arrBase){
+                System.out.println(weekdays);
             }
         }
 
