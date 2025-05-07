@@ -7,7 +7,7 @@ public class EstudanteTest02 {
         Estudante estudante = new Estudante();
         Estudante estudante2 = new Estudante();
 
-         estudante.name = "harry";
+        estudante.name = "harry";
         System.out.println(estudante.sexo);
         System.out.println(estudante.idade);
         System.out.println(estudante.name);
@@ -17,5 +17,6 @@ public class EstudanteTest02 {
         System.out.println(estudante2.sexo);
         System.out.println(estudante2.idade);
         System.out.println(estudante2.name);
+
     }
 }
