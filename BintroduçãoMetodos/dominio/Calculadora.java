@@ -16,4 +16,13 @@ public class Calculadora {
     public double divideDoisNumeros(double num1 , double num2){
         return num1 / num2;
     }
+      
+     public void altereDoisNumbers(int num1, int num2){
+        num1 = 99;
+        num2 = 20;
+        System.out.println("dentro do alteredoisnumeros ");
+        System.out.println("num1 "+ num1);
+        System.out.println("num1 "+ num2);
+     }
+
 }

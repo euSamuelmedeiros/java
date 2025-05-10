@@ -31,6 +31,10 @@ public class carTest01 {
 
         int res = car01.somaDoisNumbers(200, 200);
             System.out.println(res);
+            System.out.println("----------------------");
+
+            double result = car01.Div(100, 2);
+            System.out.println(result);
         
         
 
