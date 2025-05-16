@@ -12,7 +12,7 @@ public class Calculadora {
     public void multipliqueDoisNumeros(int number1, int number2) {
         System.out.println(number1 * number2);
     }
-
+  
     public double divideDoisNumeros(double num1, double num2) {
         return num1 / num2;
     }
