@@ -6,11 +6,12 @@ public class FuncionariosTest {
     public static void main(String[] args) {
         Funcionario employees = new Funcionario();
 
-        employees.name = "roberto";
-        employees.age = 34;
-        employees.wage  = new double[]{1200, 987.23, 2000};
-
+        employees.setName("roberto");
+        employees.setAge(34);
+        employees.setWage(new double[]{1200, 987.23, 2000});
+    
         employees.imprimee();
+        System.out.println("media " + employees.getMedia());
         
 
     }
