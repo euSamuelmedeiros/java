@@ -1,6 +1,6 @@
-package CsobrecragaDeMetodos.Dominio;
+package Dcontrutores.Dominio;
 
-public class desenhos {
+public class Desenhos {
     private String type;
     private int episodes;
     private String name;
@@ -13,10 +13,15 @@ public class desenhos {
         System.out.println(this.genero);
     }
 
-    public desenhos() {
-        
-
-    }
+    /*
+     * public Desenhos(String name, int episodes, String type, String genero) {
+     * System.out.println("dentro do construtor");
+     * this.name = name;
+     * this.episodes = episodes;
+     * this.name = name;
+     * this.genero = genero;
+     * }
+     */
 
     public void intic(String name, int episodes, String type) {
         this.type = type;
