@@ -5,36 +5,47 @@ public class Desenhos {
     private int episodes;
     private String name;
     private String genero;
+    private String estudio;
 
     public void imprimeDesenho() {
         System.out.println(this.episodes);
         System.out.println(this.type);
         System.out.println(this.name);
         System.out.println(this.genero);
+        System.out.println(this.estudio);
     }
 
+    public Desenhos(String name, int episodes, String type, String genero) {
+        this();
+        this.name = name;
+        this.episodes = episodes;
+        this.type = type;
+        this.genero = genero;
+    }
+
+    public Desenhos(String name, int episodes, String type, String genero, String estudio) {
+        this(name, episodes, type, genero);
+        this.estudio = estudio;
+
+    }
+
+    public Desenhos(){
+        System.out.println("dentro do contrutor sem argumentos");
+    }
     /*
-     * public Desenhos(String name, int episodes, String type, String genero) {
-     * System.out.println("dentro do construtor");
-     * this.name = name;
+     * public void intic(String name, int episodes, String type) {
+     * this.type = type;
      * this.episodes = episodes;
      * this.name = name;
+     * 
+     * }
+     * 
+     * public void intic(String name, int episodes, String type, String genero) {
+     * intic(name, episodes, type);
      * this.genero = genero;
+     * 
      * }
      */
-
-    public void intic(String name, int episodes, String type) {
-        this.type = type;
-        this.episodes = episodes;
-        this.name = name;
-
-    }
-
-    public void intic(String name, int episodes, String type, String genero) {
-        intic(name, episodes, type);
-        this.genero = genero;
-
-    }
 
     public void setGenero(String genero) {
         this.genero = genero;
