@@ -8,7 +8,7 @@ public class Escola {
         this.name = name;
     }
 
-    public Escola(String name, Professor[] professores){
+    public Escola(String name, Professor[] professores) {
         this.name = name;
         this.professores = professores;
     }
