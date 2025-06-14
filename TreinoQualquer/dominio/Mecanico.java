@@ -21,7 +21,6 @@ public class Mecanico {
             System.out.println(clientee.getName());
 
         }
-
     }
     public void setClientes(ClientMec[] clietes) {
         this.clientes = clietes;
