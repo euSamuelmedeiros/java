@@ -12,6 +12,10 @@ public class Seminario {
         this.alunos = alunos;
     }
 
+    public Aluno[] getAlunos(){
+        return alunos;
+    }
+
     public void setname(String name) {
         this.name = name;
 
