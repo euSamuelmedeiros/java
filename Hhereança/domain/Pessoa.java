@@ -1,9 +1,18 @@
 package Hhereança.domain;
 
 public class Pessoa {
-    private String name;
-    private String cpf;
-    private Endereço endereço;
+    protected String name;
+    protected String cpf;
+    protected Endereço endereço;
+
+    public Pessoa(String name){
+        this.name = name;
+    }
+
+    public Pessoa(String name, String cpf){
+        this(name);
+        this.cpf = cpf;
+    }
 
     public void imprimeai() {
         System.out.println(this.name);
