@@ -1,6 +1,6 @@
 package Lclassesabstratas.domain;
 
-public abstract class Employee {
+public abstract class Employee extends Pessoa{
     protected String name;
     protected double salario;
 
@@ -14,4 +14,8 @@ public abstract class Employee {
         this.salario = salario + salario * 0.1;
     }
 
+
+    public void imprime(){
+        System.out.println("imprimindo...");
+    }
 }
