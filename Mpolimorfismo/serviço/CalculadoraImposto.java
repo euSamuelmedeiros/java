@@ -1,23 +1,17 @@
 package Mpolimorfismo.serviço;
 
-import Mpolimorfismo.Domain.Computador;
-import Mpolimorfismo.Domain.Tomate;
+
+import Mpolimorfismo.Domain.Produto;
+
 
 public class CalculadoraImposto {
 
-    public void calcularImposto(Computador computador) {
-        double imposto = computador.taxavel();
-        System.out.println("Relatório do imposto do computador:");
-        System.out.println("Computador: " + computador.getName());
-        System.out.println("Valor: R$ " + computador.getValor());
-        System.out.println("Imposto a ser pago: R$ " + imposto);
-    }
 
-    public void calcularImposto(Tomate tomate) {
-        double imposto = tomate.taxavel();
-        System.out.println("Relatório do imposto do tomate:");
-        System.out.println("Tomate: " + tomate.getName());
-        System.out.println("Valor: R$ " + tomate.getValor());
-        System.out.println("Imposto a ser pago: R$ " + imposto);
+    public static void calcularImposto(Produto produto) {
+        System.out.println("relatorio de imposto");
+        double imposto = produto.taxavel();
+        System.out.println("Produto: " + produto.getName());
+        System.out.println("preço: " + produto.getValor());
+        System.out.println("valor de imposto a ser pago: " + imposto);
     }
 }
