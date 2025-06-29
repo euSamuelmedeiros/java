@@ -3,6 +3,7 @@ package Mpolimorfismo.Domain;
 public abstract class Produto implements TaxaProduto {
     protected String name;
     protected double valor;
+    
 
     public Produto(String name, double valor) {
         this.name = name;
@@ -16,4 +17,5 @@ public abstract class Produto implements TaxaProduto {
     public double getValor() {
         return valor;
     }
+
 }

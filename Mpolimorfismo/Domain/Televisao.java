@@ -4,7 +4,7 @@ public class Televisao extends Produto {
 public static final double IMPOSTO_POR_CENTO = 0.10;
     @Override
     public double taxavel() {
-       System.out.println("calculandi imposto da televisao");
+       System.out.println("calculando imposto da televisao");
        return this.valor * IMPOSTO_POR_CENTO;
     }
 
