@@ -8,16 +8,22 @@ import java.io.Reader;
 
 public class TrywithresourcesTest01 {
     public static void main(String[] args) {
+        lerArquivo();
+        System.out.println();
 
     }
 
-    public static void lerArquivo(){
-        try( Reader reader = new BufferedReader(new FileReader("test.txt"));) {
+    public static void lerArquivo() {
+      /*  try (Leitor1 leitor1 = new Leitor1();
+                Leitor2 leitor2 = new Leitor2()) {
 
-        } catch (IOException e ){
+        } catch (IOException e) {
+            e.printStackTrace();
+            
 
-        }
-    }
+        }*/
+        
+    } 
 
     public static void lerArquivo2() {
         Reader reader = null; // ---> reader = ler arquivo
